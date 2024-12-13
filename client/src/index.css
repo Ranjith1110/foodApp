@@ -6,9 +6,17 @@
 
 body {
   min-height: 100vh;
+  transition: .3s all ease !important;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+:root {
+  --main: #0d5f53;
+  --main-hover: #ffbd59;
+  --dark: #000;
+  --white: #fff;
 }
